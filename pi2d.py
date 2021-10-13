@@ -32,7 +32,7 @@ for i in range(n):
   
 plt.plot(lc1,lc2,'o')       
 plt.plot(lo1,lo2,'o')   
-plt.show
+plt.savefig('circle.png')
 
 
 pi_approx=4*nc/n
