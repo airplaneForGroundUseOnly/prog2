@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 
 def isInside(px,py):
-    return px*px+py*py<1
+    return px*px+py*py<=1
 
 
 n=1000000
